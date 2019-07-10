@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ui2/Scene/00-hello.unity
+  isLoaded: 1
+  isActive: 1

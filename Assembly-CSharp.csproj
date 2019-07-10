@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{BA8473CC-778C-CCC3-1034-E9F63A716FAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\General\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\General\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\General\Death.cs" />
+     <Compile Include="Assets\Scripts\General\GameSettings.cs" />
+     <Compile Include="Assets\Scripts\General\Guoguan.cs" />
+     <Compile Include="Assets\Scripts\General\Ladder.cs" />
+     <Compile Include="Assets\Scripts\General\ShowCollider.cs" />
+     <Compile Include="Assets\Scripts\General\UI.cs" />
+     <Compile Include="Assets\Scripts\General\caozuo.cs" />
+     <Compile Include="Assets\Scripts\General\huakuai.cs" />
+     <Compile Include="Assets\Scripts\General\jiguan.cs" />
+     <Compile Include="Assets\Scripts\General\renwu.cs" />
+     <Compile Include="Assets\Scripts\General\t.cs" />
+     <Compile Include="Assets\Scripts\General\tanhuang.cs" />
+     <Compile Include="Assets\Scripts\General\tengwan.cs" />
+     <Compile Include="Assets\Scripts\General\test.cs" />
+     <Compile Include="Assets\Scripts\General\tukeng.cs" />
+     <Compile Include="Assets\Scripts\Platforms\JumpThroughDown.cs" />
+     <Compile Include="Assets\Scripts\Platforms\JumpThroughUp.cs" />
+     <Compile Include="Assets\Scripts\Platforms\Platform.cs" />
+     <Compile Include="Assets\Scripts\Platforms\PlatformJumpThrough.cs" />
+     <Compile Include="Assets\Scripts\Platforms\PlatformMove.cs" />
+     <Compile Include="Assets\Scripts\Platforms\PlatformSink.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerCrouch.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerDash.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHitbox.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerJump.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerLadder.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerPlatform.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerRun.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerWall.cs" />
+     <Compile Include="Assets\se2\Resources\Scripts\MouseOrbit_ForRTS_CSharp.cs" />
+     <Compile Include="Assets\se2\Resources\Scripts\SelectObject.cs" />
+     <Compile Include="Assets\se2\Resources\Scripts\SelectObjectNew.cs" />
+     <Compile Include="Assets\se2\Resources\Scripts\ShowSelected.cs" />
+     <Compile Include="Assets\se2\Resources\Scripts\ShowSelectedBump.cs" />
+     <Compile Include="Assets\ui\ControlVictory.cs" />
+     <Compile Include="Assets\ui\NextButtom.cs" />
+     <Compile Include="Assets\ui\OpenVolumn.cs" />
+     <Compile Include="Assets\ui\RestartButton.cs" />
+     <Compile Include="Assets\ui\SaveThePlant.cs" />
+     <Compile Include="Assets\ui\SelectLevel.cs" />
+     <Compile Include="Assets\ui\SelectLevelButtom.cs" />
+     <Compile Include="Assets\ui\SetBGM.cs" />
+     <Compile Include="Assets\ui\SetMenu.cs" />
+     <Compile Include="Assets\ui\SetTeach01.cs" />
+     <Compile Include="Assets\ui\SetTeach02.cs" />
+     <Compile Include="Assets\ui\SetVolumn.cs" />
+     <Compile Include="Assets\ui\SetWaterInfo.cs" />
+     <Compile Include="Assets\ui\Timer.cs" />
+     <Compile Include="Assets\ui2\HelloPage.cs" />
+     <None Include="Assets\se2\Resources\Shaders\OutterLineCutoffBody.shader" />
+     <None Include="Assets\se2\Resources\Shaders\OutLine.shader" />
+     <None Include="Assets\se2\Resources\Shaders\OutterLineComposer.shader" />
+     <None Include="Assets\se2\Resources\Shaders\RimLightSpce.shader" />
+     <None Include="Assets\se2\Resources\Shaders\OutterLineShapeBlur.shader" />
+     <None Include="Assets\se2\Resources\Shaders\RimLightSpecBump.shader" />
+     <None Include="Assets\se2\Materials\NewSurfaceShader.shader" />
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
